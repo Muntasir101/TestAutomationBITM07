@@ -15,7 +15,7 @@ public class Login extends TestBase {
         firefoxLaunch();
         TC_001_Valid();
         TC_002_InValid();
-       // firefoxClose();
+        firefoxClose();
     }
     public static void TC_001_Valid(){
         //Step 1
@@ -33,9 +33,21 @@ public class Login extends TestBase {
         WebElement LoginBtn=driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input"));
         LoginBtn.click();
 
-        //Logout
-        WebElement logout=driver.findElement(By.linkText("Logout"));
-        logout.click();
+        //Logic Develop
+        //Login Pass
+        String Exp_Title="My Account";
+        String Act_Title=driver.getTitle();
+
+        if(Exp_Title.equals(Act_Title)){
+            System.out.println("Test Passed for valid Data.");
+            //Logout
+            WebElement logout=driver.findElement(By.linkText("Logout"));
+            logout.click();
+        }
+        else{
+            System.out.println("Test Failed for valid Data.Yahooooo Bug Found.");
+        }
+
 
     }
     public static void TC_002_InValid(){
@@ -53,5 +65,21 @@ public class Login extends TestBase {
         //Step 4
         WebElement LoginBtn=driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input"));
         LoginBtn.click();
+
+        //Login Pass
+        String Exp_Title="My Account";
+        String Act_Title=driver.getTitle();
+
+        if(!Exp_Title.equals(Act_Title)){
+            System.out.println("Test Passed for Invalid Data.");
+
+        }
+        else{
+            System.out.println("Test Failed for Invalid Data.Yahooooo Bug Found.");
+            //Logout
+            WebElement logout=driver.findElement(By.linkText("Logout"));
+            logout.click();
+
+        }
     }
 }
