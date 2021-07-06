@@ -34,4 +34,8 @@ public class TestBase {
         System.out.println("Firefox Closed!!!");
     }
 
+    public static void openTestURL(String URL){
+        driver.get(URL);
+    }
+
 }
