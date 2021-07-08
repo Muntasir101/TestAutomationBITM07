@@ -72,6 +72,9 @@ public class Register extends TestBase {
         WebElement First_name = driver.findElement(By.id("input-firstname"));
         First_name.sendKeys("dasdassdadasdasdasdasdasdasdasdasdasdasdasdasdasdasd");
 
+        getElementByCSSandType("dsasadasd","name");
+        getElementByCSSandClick("assdadasd");
+
         ClickContinue.click();
 
         String Exp_validationMessage="First Name must be between 1 and 32 characters!";
