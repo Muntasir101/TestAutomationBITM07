@@ -1,18 +1,19 @@
 package com.Base;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.awt.*;
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
     public static WebDriver driver;
 
-    public static void main(String[] args) throws InterruptedException, AWTException {
+    public static void main(String[] args) throws InterruptedException, AWTException, IOException {
         chromeLaunch();
         chromeClose();
         firefoxLaunch();
@@ -70,5 +71,13 @@ public class TestBase {
         driver.switchTo().alert().dismiss();
     }
 
+    public static void captureScreenshot(String name, String format) throws IOException {
+        //take Screenshot
+        File srcFile= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+
+        //Save Image
+        FileUtils.copyFile(srcFile,new File("./src/test/Screenshots/" + name + format),true);
+
+    }
 
 }

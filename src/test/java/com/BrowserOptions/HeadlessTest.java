@@ -7,13 +7,15 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
+import java.io.IOException;
+
 public class HeadlessTest extends TestBase  {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ChromeBrowserHeadless();
         firefoxBrowserHeadless();
     }
-    public static void ChromeBrowserHeadless(){
+    public static void ChromeBrowserHeadless() throws IOException {
         System.setProperty("webdriver.chrome.driver","./src/main/resources/chromedriver.exe");
         ChromeOptions crobj=new ChromeOptions();
         crobj.setHeadless(true);
@@ -22,7 +24,7 @@ public class HeadlessTest extends TestBase  {
         System.out.println("Headless Chrome Test DONE");
     }
 
-    public static void firefoxBrowserHeadless(){
+    public static void firefoxBrowserHeadless() throws IOException {
         System.setProperty("webdriver.gecko.driver","./src/main/resources/geckodriver.exe");
         FirefoxOptions frobj=new FirefoxOptions();
         frobj.setHeadless(true);
