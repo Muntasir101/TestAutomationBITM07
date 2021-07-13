@@ -55,6 +55,7 @@ public class LoginLog4j extends TestBase {
         else{
             System.out.println("Test Failed for valid Data.Yahooooo Bug Found.");
             Log.info("Test failed for valid Data.");
+			
         }
 
     }
