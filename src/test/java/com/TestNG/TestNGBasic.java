@@ -20,7 +20,6 @@ public class TestNGBasic {
     public void TC_004(){
         System.out.println("Hello Mirpur");
     }
-
     @Test(groups = {"Login Test"})
     public void TC_005(){
         System.out.println("Hello Mirpur2");

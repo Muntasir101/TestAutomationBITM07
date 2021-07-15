@@ -72,8 +72,8 @@ public class Register extends TestBase {
         WebElement First_name = driver.findElement(By.id("input-firstname"));
         First_name.sendKeys("dasdassdadasdasdasdasdasdasdasdasdasdasdasdasdasdasd");
 
-        getElementByCSSandType("dsasadasd","name");
-        getElementByCSSandClick("assdadasd");
+        getElementByCSSAndType("dsasadasd","name");
+        getElementByCSSAndClick("assdadasd");
 
         ClickContinue.click();
 

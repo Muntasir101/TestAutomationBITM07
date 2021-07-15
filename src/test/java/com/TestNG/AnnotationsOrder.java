@@ -19,8 +19,7 @@ public class AnnotationsOrder {
     }
     @BeforeMethod
     public void methodSetup(){
-        System.out.println("Method Setup DONE");
-    }
+        System.out.println("Method Setup DONE"); }
     @Test
     public void TC_001(){
         System.out.println("Hello World");
@@ -31,9 +30,7 @@ public class AnnotationsOrder {
     }
     @AfterMethod
     public void methodExecute(){
-        System.out.println("After Method DONE");
-    }
-
+        System.out.println("After Method DONE"); }
     @AfterClass
     public void classExecute(){
         System.out.println("After Class DONE");
