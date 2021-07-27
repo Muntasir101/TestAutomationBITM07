@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Data Driven Test">
+
+    <test name="Login Test in Firefox">
+        <parameter name="Browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.ExtentReport.Login_Extent"> </class>
+        </classes>
+    </test>
+
+
+</suite>
