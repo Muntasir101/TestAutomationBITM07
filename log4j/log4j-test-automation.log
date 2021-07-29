@@ -1,75 +1,105 @@
-[INFO ] 2021-07-27 18:47:52.773 [main] Log - Firefox Launch Successfully.
-[INFO ] 2021-07-27 18:47:56.842 [main] Log - Login Page Open Successfully.
-[INFO ] 2021-07-27 18:47:58.675 [main] Log - Type Email: email11@test.com
-[INFO ] 2021-07-27 18:47:58.711 [main] Log - Type Password: 123456
-[INFO ] 2021-07-27 18:48:00.144 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:48:00.600 [main] Log - Type Email: email22@test.com
-[INFO ] 2021-07-27 18:48:00.648 [main] Log - Type Password: ssad122
-[INFO ] 2021-07-27 18:48:02.072 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:48:02.235 [main] Log - Type Email: email33@test.com
-[INFO ] 2021-07-27 18:48:02.273 [main] Log - Type Password: sasasad
-[INFO ] 2021-07-27 18:48:03.721 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:48:03.878 [main] Log - Type Email: user101@gmail.com
-[INFO ] 2021-07-27 18:48:03.949 [main] Log - Type Password: 123456
-[INFO ] 2021-07-27 18:48:06.874 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:48:08.254 [main] Log - Firefox Close Successfully.
-[INFO ] 2021-07-27 18:50:25.536 [main] Log - Firefox Launch Successfully.
-[INFO ] 2021-07-27 18:50:28.584 [main] Log - Login Page Open Successfully.
-[INFO ] 2021-07-27 18:50:29.832 [main] Log - Type Email: email11@test.com
-[INFO ] 2021-07-27 18:50:29.861 [main] Log - Type Password: 123456
-[INFO ] 2021-07-27 18:50:31.275 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:50:31.617 [main] Log - Type Email: email22@test.com
-[INFO ] 2021-07-27 18:50:31.660 [main] Log - Type Password: ssad122
-[INFO ] 2021-07-27 18:50:33.090 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:50:33.229 [main] Log - Type Email: email33@test.com
-[INFO ] 2021-07-27 18:50:33.268 [main] Log - Type Password: sasasad
-[INFO ] 2021-07-27 18:50:34.724 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:50:34.886 [main] Log - Type Email: user101@gmail.com
-[INFO ] 2021-07-27 18:50:34.928 [main] Log - Type Password: 123456
-[INFO ] 2021-07-27 18:50:37.321 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:50:40.083 [main] Log - Firefox Close Successfully.
-[INFO ] 2021-07-27 18:52:36.618 [main] Log - Firefox Launch Successfully.
-[INFO ] 2021-07-27 18:52:39.367 [main] Log - Login Page Open Successfully.
-[INFO ] 2021-07-27 18:52:40.731 [main] Log - Type Email: email11@test.com
-[INFO ] 2021-07-27 18:52:40.766 [main] Log - Type Password: 123456
-[INFO ] 2021-07-27 18:52:42.203 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:52:42.631 [main] Log - Type Email: email22@test.com
-[INFO ] 2021-07-27 18:52:42.668 [main] Log - Type Password: ssad122
-[INFO ] 2021-07-27 18:52:44.079 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:52:44.232 [main] Log - Type Email: email33@test.com
-[INFO ] 2021-07-27 18:52:44.275 [main] Log - Type Password: sasasad
-[INFO ] 2021-07-27 18:52:45.694 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:52:45.838 [main] Log - Type Email: 
-[INFO ] 2021-07-27 18:52:45.885 [main] Log - Type Password: 
-[INFO ] 2021-07-27 18:52:47.322 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:52:48.430 [main] Log - Firefox Close Successfully.
-[INFO ] 2021-07-27 18:54:44.735 [main] Log - Firefox Launch Successfully.
-[INFO ] 2021-07-27 18:54:46.988 [main] Log - Login Page Open Successfully.
-[INFO ] 2021-07-27 18:54:47.827 [main] Log - Type Email: email11@test.com
-[INFO ] 2021-07-27 18:54:47.877 [main] Log - Type Password: 123456
-[INFO ] 2021-07-27 18:54:49.300 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:54:49.534 [main] Log - Type Email: email22@test.com
-[INFO ] 2021-07-27 18:54:49.564 [main] Log - Type Password: ssad122
-[INFO ] 2021-07-27 18:54:50.937 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:54:51.047 [main] Log - Type Email: email33@test.com
-[INFO ] 2021-07-27 18:54:51.074 [main] Log - Type Password: sasasad
-[INFO ] 2021-07-27 18:54:52.461 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:54:52.547 [main] Log - Type Email: 
-[INFO ] 2021-07-27 18:54:52.574 [main] Log - Type Password: 
-[INFO ] 2021-07-27 18:54:53.969 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 18:54:54.687 [main] Log - Firefox Close Successfully.
-[INFO ] 2021-07-27 19:11:36.421 [main] Log - Firefox Launch Successfully.
-[INFO ] 2021-07-27 19:11:38.975 [main] Log - Login Page Open Successfully.
-[INFO ] 2021-07-27 19:11:40.173 [main] Log - Type Email: email11@test.com
-[INFO ] 2021-07-27 19:11:40.209 [main] Log - Type Password: 123456
-[INFO ] 2021-07-27 19:11:41.636 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 19:11:42.427 [main] Log - Type Email: email22@test.com
-[INFO ] 2021-07-27 19:11:42.470 [main] Log - Type Password: ssad122
-[INFO ] 2021-07-27 19:11:43.889 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 19:11:44.124 [main] Log - Type Email: email33@test.com
-[INFO ] 2021-07-27 19:11:44.176 [main] Log - Type Password: sasasad
-[INFO ] 2021-07-27 19:11:45.585 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 19:11:45.795 [main] Log - Type Email: 
-[INFO ] 2021-07-27 19:11:45.850 [main] Log - Type Password: 
-[INFO ] 2021-07-27 19:11:47.296 [main] Log - Click on Login Button
-[INFO ] 2021-07-27 19:11:48.346 [main] Log - Firefox Close Successfully.
+[INFO ] 2021-07-29 17:25:07.572 [main] Log - Firefox Launch Successfully.
+[INFO ] 2021-07-29 17:25:12.319 [main] Log - Login Page Open Successfully.
+[INFO ] 2021-07-29 17:25:13.317 [main] Log - Type Email: email11@test.com
+[INFO ] 2021-07-29 17:25:13.350 [main] Log - Type Password: 123456
+[INFO ] 2021-07-29 17:25:14.825 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:25:15.186 [main] Log - Type Email: email22@test.com
+[INFO ] 2021-07-29 17:25:15.207 [main] Log - Type Password: ssad122
+[INFO ] 2021-07-29 17:25:16.603 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:25:16.710 [main] Log - Type Email: email33@test.com
+[INFO ] 2021-07-29 17:25:16.726 [main] Log - Type Password: sasasad
+[INFO ] 2021-07-29 17:25:18.114 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:25:18.207 [main] Log - Type Email: 
+[INFO ] 2021-07-29 17:25:18.229 [main] Log - Type Password: 
+[INFO ] 2021-07-29 17:25:19.632 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:25:21.176 [main] Log - Firefox Close Successfully.
+[INFO ] 2021-07-29 17:29:23.699 [main] Log - Firefox Launch Successfully.
+[INFO ] 2021-07-29 17:29:27.981 [main] Log - Login Page Open Successfully.
+[INFO ] 2021-07-29 17:29:28.865 [main] Log - Type Email: email11@test.com
+[INFO ] 2021-07-29 17:29:28.897 [main] Log - Type Password: 123456
+[INFO ] 2021-07-29 17:29:30.331 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:29:30.647 [main] Log - Type Email: email22@test.com
+[INFO ] 2021-07-29 17:29:30.685 [main] Log - Type Password: ssad122
+[INFO ] 2021-07-29 17:29:32.088 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:29:32.204 [main] Log - Type Email: email33@test.com
+[INFO ] 2021-07-29 17:29:32.235 [main] Log - Type Password: sasasad
+[INFO ] 2021-07-29 17:29:33.639 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:29:33.735 [main] Log - Type Email: 
+[INFO ] 2021-07-29 17:29:33.766 [main] Log - Type Password: 
+[INFO ] 2021-07-29 17:29:35.225 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:29:36.325 [main] Log - Firefox Close Successfully.
+[INFO ] 2021-07-29 17:30:54.093 [main] Log - Firefox Launch Successfully.
+[INFO ] 2021-07-29 17:30:57.349 [main] Log - Login Page Open Successfully.
+[INFO ] 2021-07-29 17:30:58.131 [main] Log - Type Email: email11@test.com
+[INFO ] 2021-07-29 17:30:58.156 [main] Log - Type Password: 123456
+[INFO ] 2021-07-29 17:30:59.591 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:30:59.823 [main] Log - Type Email: email22@test.com
+[INFO ] 2021-07-29 17:30:59.845 [main] Log - Type Password: ssad122
+[INFO ] 2021-07-29 17:31:01.230 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:31:01.336 [main] Log - Type Email: email33@test.com
+[INFO ] 2021-07-29 17:31:01.365 [main] Log - Type Password: sasasad
+[INFO ] 2021-07-29 17:31:02.819 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:31:02.904 [main] Log - Type Email: 
+[INFO ] 2021-07-29 17:31:02.935 [main] Log - Type Password: 
+[INFO ] 2021-07-29 17:31:04.332 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:31:05.462 [main] Log - Firefox Close Successfully.
+[INFO ] 2021-07-29 17:31:30.882 [main] Log - Firefox Launch Successfully.
+[INFO ] 2021-07-29 17:31:34.234 [main] Log - Login Page Open Successfully.
+[INFO ] 2021-07-29 17:31:34.982 [main] Log - Type Email: email11@test.com
+[INFO ] 2021-07-29 17:31:35.009 [main] Log - Type Password: 123456
+[INFO ] 2021-07-29 17:31:36.413 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:31:36.642 [main] Log - Type Email: email22@test.com
+[INFO ] 2021-07-29 17:31:36.674 [main] Log - Type Password: ssad122
+[INFO ] 2021-07-29 17:31:38.787 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:31:38.891 [main] Log - Type Email: email33@test.com
+[INFO ] 2021-07-29 17:31:38.915 [main] Log - Type Password: sasasad
+[INFO ] 2021-07-29 17:31:40.340 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:31:40.458 [main] Log - Type Email: 
+[INFO ] 2021-07-29 17:31:40.486 [main] Log - Type Password: 
+[INFO ] 2021-07-29 17:31:42.551 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:31:44.327 [main] Log - Firefox Close Successfully.
+[INFO ] 2021-07-29 17:32:30.724 [main] Log - Firefox Launch Successfully.
+[INFO ] 2021-07-29 17:32:33.146 [main] Log - Login Page Open Successfully.
+[INFO ] 2021-07-29 17:32:33.908 [main] Log - Type Email: email11@test.com
+[INFO ] 2021-07-29 17:32:33.944 [main] Log - Type Password: 123456
+[INFO ] 2021-07-29 17:32:35.430 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:32:35.662 [main] Log - Type Email: email22@test.com
+[INFO ] 2021-07-29 17:32:35.693 [main] Log - Type Password: ssad122
+[INFO ] 2021-07-29 17:32:37.135 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:32:37.235 [main] Log - Type Email: email33@test.com
+[INFO ] 2021-07-29 17:32:37.266 [main] Log - Type Password: sasasad
+[INFO ] 2021-07-29 17:32:38.668 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:32:38.753 [main] Log - Type Email: 
+[INFO ] 2021-07-29 17:32:38.768 [main] Log - Type Password: 
+[INFO ] 2021-07-29 17:32:40.223 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:32:41.363 [main] Log - Firefox Close Successfully.
+[INFO ] 2021-07-29 17:33:20.788 [main] Log - Firefox Launch Successfully.
+[INFO ] 2021-07-29 17:33:23.077 [main] Log - Login Page Open Successfully.
+[INFO ] 2021-07-29 17:33:23.961 [main] Log - Type Email: email11@test.com
+[INFO ] 2021-07-29 17:33:23.992 [main] Log - Type Password: 123456
+[INFO ] 2021-07-29 17:33:25.430 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:33:25.793 [main] Log - Type Email: email22@test.com
+[INFO ] 2021-07-29 17:33:25.868 [main] Log - Type Password: ssad122
+[INFO ] 2021-07-29 17:33:27.264 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:33:27.349 [main] Log - Type Email: email33@test.com
+[INFO ] 2021-07-29 17:33:27.380 [main] Log - Type Password: sasasad
+[INFO ] 2021-07-29 17:33:28.752 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:33:28.852 [main] Log - Type Email: 
+[INFO ] 2021-07-29 17:33:28.883 [main] Log - Type Password: 
+[INFO ] 2021-07-29 17:33:30.270 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 17:33:31.359 [main] Log - Firefox Close Successfully.
+[INFO ] 2021-07-29 18:34:59.443 [main] Log - Firefox Launch Successfully.
+[INFO ] 2021-07-29 18:35:02.396 [main] Log - Login Page Open Successfully.
+[INFO ] 2021-07-29 18:35:03.935 [main] Log - Type Email: email11@test.com
+[INFO ] 2021-07-29 18:35:03.985 [main] Log - Type Password: 123456
+[INFO ] 2021-07-29 18:35:05.508 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 18:35:06.076 [main] Log - Type Email: email22@test.com
+[INFO ] 2021-07-29 18:35:06.138 [main] Log - Type Password: ssad122
+[INFO ] 2021-07-29 18:35:07.684 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 18:35:07.880 [main] Log - Type Email: email33@test.com
+[INFO ] 2021-07-29 18:35:07.943 [main] Log - Type Password: sasasad
+[INFO ] 2021-07-29 18:35:09.487 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 18:35:09.667 [main] Log - Type Email: 
+[INFO ] 2021-07-29 18:35:09.733 [main] Log - Type Password: 
+[INFO ] 2021-07-29 18:35:11.233 [main] Log - Click on Login Button
+[INFO ] 2021-07-29 18:35:13.828 [main] Log - Firefox Close Successfully.

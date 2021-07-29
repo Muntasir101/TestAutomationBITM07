@@ -36,7 +36,7 @@ public class LoginStep {
 
     }
 
-    @And("Login success ")
+    @When("Login success")
     public void login_success(){
         String Exp_Title="Account Login";
         String Act_Title=driver.getTitle();
@@ -51,8 +51,8 @@ public class LoginStep {
         }
     }
 
-    @Then(" Close Test")
-    public void  lose_test() {
+    @Then("Close Test")
+    public void  close_test() {
           driver.close();
     }
 }

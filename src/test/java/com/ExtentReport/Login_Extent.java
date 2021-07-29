@@ -115,9 +115,9 @@ public class Login_Extent {
             }
 
             //Assertion
-            Assert.assertEquals(Exp_Title,Act_Title);
+           Assert.assertEquals(Exp_Title,Act_Title);
 
-            report.flush();
         }
+        report.flush();
     }
 }
