@@ -50,7 +50,7 @@ public class Login_Extent {
     }
 
     @Test
-    public void TC_001_InValid(){
+    public void TC_001_LoginTest(){
         //Extent
         htmlReporter =new ExtentHtmlReporter("./Extent-Report/LoginTestReport.html");
         report=new ExtentReports();
@@ -77,6 +77,7 @@ public class Login_Extent {
         for(int rowNum=2; rowNum<=rowCount;rowNum++){
             String email=reader.getCellData(sheetName,"Email",rowNum);
             String pass=reader.getCellData(sheetName,"Password",rowNum);
+            String input=reader.getCellData(sheetName,"Data Type",rowNum);
 
             WebElement Email=driver.findElement(By.id("input-email"));
             Email.clear();
@@ -91,7 +92,6 @@ public class Login_Extent {
             Log.info("Type Password: "+pass);
             logger.log(Status.INFO,"Type Password: "+pass);
 
-
             WebElement LoginBtn=driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input"));
             LoginBtn.click();
             Log.info("Click on Login Button");
@@ -99,24 +99,50 @@ public class Login_Extent {
 
             //Logic Develop
             //Login Pass
-            String Exp_Title="Account Login";
+            String Exp_Title="My Account";
             String Act_Title=driver.getTitle();
 
-            if(Exp_Title.equals(Act_Title)){
-                //excel write
-                reader.setCellData(sheetName,"Result",rowNum,"Not Login");
-                logger.log(Status.PASS,"Not Login. Test Passed.");
+            if(input.equals("Valid")) {
+                if (Exp_Title.equals(Act_Title)) {
+                    logger.log(Status.PASS, "Login.Test Passed.");
+
+                    WebElement myAccount=driver.findElement(By.linkText("My Account"));
+                    WebElement logout=driver.findElement(By.linkText("Logout"));
+
+                    myAccount.click();
+                    logout.click();
+
+                    driver.navigate().to("https://demo.opencart.com/index.php?route=account/login");
+
+                    //excel write
+                    reader.setCellData(sheetName, "Actual Result", rowNum, "Login");
+
+                } else {
+                    //excel write
+                    reader.setCellData(sheetName, "Actual Result", rowNum, "Not Login");
+                    logger.log(Status.FAIL, "Not Login.Test failed.");
+                }
             }
+           else if(input.equals("Invalid")) {
+                if (!Exp_Title.equals(Act_Title)) {
+                    reader.setCellData(sheetName, "Actual Result", rowNum, "Not Login");
+                    logger.log(Status.FAIL, "Not Login.Test failed.");
+                } else {
+                    WebElement myAccount=driver.findElement(By.linkText("My Account"));
+                    WebElement logout=driver.findElement(By.linkText("Logout"));
 
-            else {
-                //excel write
-                reader.setCellData(sheetName,"Result",rowNum,"Login");
-                logger.log(Status.FAIL,"Login.Test failed.");
+                    myAccount.click();
+                    logout.click();
+
+                    driver.navigate().to("https://demo.opencart.com/index.php?route=account/login");
+
+                    logger.log(Status.PASS, "Login.Test Passed.");
+
+                    //excel write
+                    reader.setCellData(sheetName, "Actual Result", rowNum, "Login");
+
+                }
             }
-
-            //Assertion
-           Assert.assertEquals(Exp_Title,Act_Title);
-
         }
         report.flush();
     }
